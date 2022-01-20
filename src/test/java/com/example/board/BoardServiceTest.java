@@ -46,7 +46,7 @@ public class BoardServiceTest {
 
     }
 
-    @Test
+   // @Test
     public void testModify() {
 
         BoardDTO boardDTO = BoardDTO.builder()

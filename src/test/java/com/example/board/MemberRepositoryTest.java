@@ -107,7 +107,7 @@ public class MemberRepositoryTest {
         });
     }
 
-    @Test
+    //@Test
     public void testRead2(){
         Object result = boardRepository.getBoardByBno(87L);
         Object[] arr = (Object[])result;
