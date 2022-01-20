@@ -109,7 +109,7 @@ public class MemberRepositoryTest {
 
     @Test
     public void testRead2(){
-        Object result = boardRepository.getBoardByBno(100L);
+        Object result = boardRepository.getBoardByBno(87L);
         Object[] arr = (Object[])result;
         System.out.println(Arrays.toString(arr));
     }
